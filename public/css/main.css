@@ -630,7 +630,7 @@ template {
   margin-top: calc(-1 * var(--changeme-gutter-y));
   margin-right: calc(-0.5 * var(--changeme-gutter-x));
   margin-left: calc(-0.5 * var(--changeme-gutter-x));
-  height: 440vh;
+  height: 200vh;
 }
 .grid__out {
   left: 0;
