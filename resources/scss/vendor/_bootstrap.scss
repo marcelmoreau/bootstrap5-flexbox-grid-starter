@@ -1,0 +1,12 @@
+/*!
+ * Bootstrap grid
+ * We need all these files except breakpoints in order to utilize the grid.
+ * I include breakpoitns as well as I find it helpful.
+ */
+
+ @import "~bootstrap/scss/functions";
+ @import "~bootstrap/scss/variables";
+ @import "~bootstrap/scss/mixins/breakpoints";
+ @import "~bootstrap/scss/mixins/container";
+ @import "~bootstrap/scss/mixins/grid";
+ 

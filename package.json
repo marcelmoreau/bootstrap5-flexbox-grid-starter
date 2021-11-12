@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap5-flexbox-grid-starter",
+  "version": "1.0.0",
+  "description": "Using Bootstrap's Sass grid mixins for layout.",
+  "scripts": {
+    "dev": "mix",
+    "prod": "mix --production",
+    "watch": "mix watch",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelmoreau/bootstrap5-flexbox-grid-starter.git"
+  },
+  "author": "Marcel",
+  "bugs": {
+    "url": "https://github.com/marcelmoreau/bootstrap5-flexbox-grid-starter/issues"
+  },
+  "homepage": "https://github.com/marcelmoreau/bootstrap5-flexbox-grid-starter#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "http-server": "^14.0.0",
+    "laravel-mix": "^6.0.39",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^4.0.0",
+    "sass-loader": "^12.3.0"
+  }
+}

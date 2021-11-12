@@ -1,0 +1,33 @@
+$variable-prefix: changeme-;
+
+/**
+* breakpoints
+*/
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1360px
+);
+
+
+/**
+* container sizes
+*/
+
+$container-max-widths: (
+    xxl: 1200px
+);
+
+
+/**
+* grid
+*/
+
+$grid-columns: 12;
+$grid-gutter-width: 2.5rem;
+
+$container-padding-x: $grid-gutter-width * 0.5;

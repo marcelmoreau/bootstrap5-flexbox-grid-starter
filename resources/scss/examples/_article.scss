@@ -1,0 +1,35 @@
+ .article {
+    $b: &;
+
+    &__wrapper {
+
+        --changeme-gutter-y: 2rem;
+
+        @include media-breakpoint-up(lg) {
+            @include make-row();
+
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+    }
+
+    &__primary {
+        @include make-col-ready();
+
+        @include media-breakpoint-up(lg) {
+            @include make-col(7);
+        }
+    }
+
+    &__secondary {
+        @include make-col-ready();
+
+        @include media-breakpoint-up(lg) {
+            @include make-col(1);
+            @include make-col-offset(2);
+        }
+    }
+
+}
