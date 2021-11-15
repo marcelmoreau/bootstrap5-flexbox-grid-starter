@@ -1,7 +1,7 @@
 const mix = require('laravel-mix')
 
 mix.setResourceRoot(process.env.RESOURCE_ROOT || '/')
-mix.setPublicPath('public')
+mix.setPublicPath('docs')
 
 // Mix Options
 

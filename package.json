@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap5-flexbox-grid-starter",
+  "name": "grid-starter",
   "version": "1.0.0",
   "description": "Using Bootstrap's Sass grid mixins for layout.",
   "scripts": {

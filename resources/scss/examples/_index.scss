@@ -26,6 +26,11 @@
     &__button {
         cursor: pointer;
         font-weight: bold;
+        padding: 0.5em 1em;
+    }
+
+    &__button:focus-visible {
+        outline: 2px solid;
     }
 }
 
@@ -37,24 +42,32 @@
         display: block;
     }
 
-    &__in {
-        @include make-row();
-        height: 200vh;
-    }
-
     &__out {
+        bottom: 0;
+        height: 100%;
         left: 0;
-        position: absolute;
+        pointer-events: none;
+        position: fixed;
         top: 0;
         width: 100%;
+    }
+
+    &__container {
+        height: 100%;
+    }
+
+    &__in {
+        @include make-row();
+
+        height: 100%;
     }
 
     .col {
         @include make-col-ready();
         @include make-col(1);
         background-clip: content-box;
-        background-color: rgba(255, 0, 0, 0.15);
-        box-shadow: inset 0 0 0 0.5px rgba(0, 0, 0, 0.4);
+        background-color: rgb(255 0 0 / 0.25);
+        box-shadow: inset 0 0 0 0.5px rgb(0 0 0 / 0.5);
         height: 100%;
     }
 }
