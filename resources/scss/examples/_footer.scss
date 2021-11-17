@@ -1,7 +1,3 @@
-/**
- * structure > footer
- */
-
  .footer {
     $b: &;
 
@@ -89,10 +85,6 @@
     }
 
     &__navItem {
-        // @extend %last-margin-bottom-kill;
-
-        // font-size: $footer-nav-item-font-size;
         margin-bottom: 0.5rem;
     }
-
 }
